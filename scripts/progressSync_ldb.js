@@ -2,6 +2,7 @@
 
 let l1p = document.getElementById("lesson1Percentage");
 let l2p = document.getElementById("Lesson2Percentage");
+let l3p = document.getElementById("Lesson3Percentage")
 
 
 function syncl1p(){
@@ -34,6 +35,22 @@ function syncl2p(){
     }
     else if (tempovar === 3){
         l2p.innerHTML = `Complete!`;
+    };
+}
+function syncl3p(){
+    let tempovar = Number(localStorage.getItem("3"))
+
+    if (isNaN(tempovar)) {
+        l3p.innerHTML = `0% Done`;
+    } 
+    else if (tempovar === 1){
+        l3p.innerHTML = `33% Done`;
+    }
+    else if (tempovar === 2){
+        l3p.innerHTML = `66% Done`;
+    }
+    else if (tempovar === 3){
+        l3p.innerHTML = `Complete!`;
     };
 }
 

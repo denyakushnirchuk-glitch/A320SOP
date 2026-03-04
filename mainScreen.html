@@ -8,7 +8,7 @@
 
 	<link rel="stylesheet" href="rsc/dashboard.css">
 </head>
-<body onload="syncl1p(); syncl2p();">
+<body onload="syncl1p(); syncl2p(); syncl3p();">
     
     <div class="sidebar">
         <div class="Namee">
@@ -72,7 +72,7 @@
                     <div class="lessonName">
                     <p>A320 Briefing & Weather</p>
                     </div>
-                    <div class="joinn">
+                    <div class="joinn" onclick="OpenLesson3()">
                         <p>Join</p>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                         <p>Very hard</p>
                     </div>
                     <div class="percentagee">
-                        <p>0%</p>
+                        <p id="Lesson3Percentage"></p>
                     </div>
                 </div>
             </div>
