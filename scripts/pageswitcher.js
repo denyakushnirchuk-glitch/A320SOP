@@ -8,8 +8,8 @@ function switchToStudy(){
     location.reload();
     container.innerHTML = `
     <div class="searchparent">
-        <p>Study Books</p>
-    </div>
+            <p>Study Books</p>
+        </div>
         <div class="lessonparent">
             <div class="lesson-card" id="Lesson_1">
                 <div class="headerr">
@@ -36,7 +36,7 @@ function switchToStudy(){
                     <div class="lessonName">
                     <p>A320 S.O.P Cockpit setup</p>
                     </div>
-                    <div class="joinn">
+                    <div class="joinn" onclick="OpenLesson2()">
                         <p>Join</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ function switchToStudy(){
                         <p>Medium</p>
                     </div>
                     <div class="percentagee">
-                        <p>0%</p>
+                        <p id="Lesson2Percentage"></p>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ function switchToStudy(){
                     <div class="lessonName">
                     <p>A320 Briefing & Weather</p>
                     </div>
-                    <div class="joinn">
+                    <div class="joinn" onclick="OpenLesson3()">
                         <p>Join</p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ function switchToStudy(){
                         <p>Very hard</p>
                     </div>
                     <div class="percentagee">
-                        <p>0%</p>
+                        <p id="Lesson3Percentage"></p>
                     </div>
                 </div>
             </div>
