@@ -1,0 +1,196 @@
+body {
+background-color: #7EACB5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction:row;
+	height:95vh;
+	font-family:'Poppins', Courier, monospace;
+}
+
+/* Sidebar setup */
+.sidebar {
+    height: 100%;
+    width: 15%;
+    background-color: #FFF4EA;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar button {
+    border: none;
+    margin-top: 2.5vw;
+    height: 4vw;
+    width: 100%;
+    background-color: #eddcc6;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.sidebar button:hover {
+    background-color: #b1a08a;
+}
+
+.Namee {
+    height: 20vh;
+    width: 100%;
+    background-color: #eddcc6;
+    margin-bottom: 5vh;
+
+}
+
+.Namee p {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2.4vh;
+}
+/* End of sidebar setup */
+.customizable {
+    height: 100%;
+    width: 85%;
+    background-color: #7EACB5;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchparent {
+    width: 100%;
+    height: 10%;
+    background-color: #FFF4EA;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchparent p {
+    font-weight: 1000;
+    font-size: 3.5vh;
+}
+
+.lessonparent {
+    margin-top: 5%;
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    /* align-items: flex-start; */
+    flex-direction: column;
+}
+
+/* The lesson div thingy, 1st out of 2 options */
+.lesson-card {
+    height: 10vw;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: transparent;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+}
+
+.headerr {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lessonName{
+    height: 100%;
+    width: 80%;
+    background-color: #FFF4EA;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessonName p {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2vw;
+}
+.joinn {
+    height: 100%;
+    width: 20%;
+    background-color: #BF4646;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+}
+.joinn:hover {
+    background-color: #9b3a3a;
+}
+
+.joinn p {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+.stats {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.difficultyy {
+    height: 100%;
+    width: 50%;
+    background-color: #FFF4EA;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.difficultyy p {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+.percentagee {
+    height: 100%;
+    width: 50%;
+    background-color: #FFF4EA;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percentagee p {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+/* End of the first div thingy */
