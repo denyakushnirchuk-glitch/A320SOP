@@ -22,3 +22,11 @@ function OpenLesson3() {
 function CloseLesson3() {
     window.location.href = "mainScreen.html";
 };
+
+//Main exam
+function OpenExam() {
+    window.location.href = "exam.html";
+};
+function CloseExam() {
+    window.location.href = "mainScreen.html";
+};

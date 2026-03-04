@@ -54,6 +54,16 @@ function syncl3p(){
     };
 }
 
+function ShowExamResult(){
+    let savedScore = Number(localStorage.getItem("4"));
+    if (savedScore >= 4) {
+        alert("PASSED \n Score: " + savedScore + "/5");
+    } else {
+        alert("FAILED \n Score: " + savedScore + "/5");
+    }
+    
+    
+};
 function updateProgress(lesson, value){
     localStorage.setItem(lesson, value);
 };

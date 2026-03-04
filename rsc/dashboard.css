@@ -185,6 +185,25 @@ background-color: #7EACB5;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.percentageee{
+    height: 100%;
+    width: 50%;
+    background-color: #FFF4EA;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.percentageee p {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2vw;
 }
 
 .percentagee p {

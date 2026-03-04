@@ -80,7 +80,27 @@ function switchToExams() {
     <div class="searchparent">
         <p>Exams</p>
     </div>
-
+    <div class="lessonparent">
+            <div class="lesson-card" id="Lesson_1">
+                <div class="headerr">
+                    <div class="lessonName">
+                    <p>Main Exam</p>
+                    </div>
+                    <div class="joinn" onclick="OpenExam()" href>
+                        <p>Join</p>
+                    </div>
+                </div>
+                
+                <div class="stats">
+                    <div class="difficultyy">
+                        <p>EXTREME</p>
+                    </div>
+                    <div class="percentageee" onclick="ShowExamResult()">
+                        <p>Show last result</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     `
