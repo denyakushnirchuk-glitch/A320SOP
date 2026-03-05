@@ -22,11 +22,11 @@ function CheckExam() {
     // Q4 = a
     // Q5 = b
 
-    if (q1.value === "a") score++;
-    if (q2.value === "b") score++;
+    if (q1.value === "b") score++;
+    if (q2.value === "c") score++;
     if (q3.value === "c") score++;
-    if (q4.value === "a") score++;
-    if (q5.value === "b") score++;
+    if (q4.value === "g") score++;
+    if (q5.value === "e") score++;
 
     // Pass mark = 70% (4 out of 5)
     localStorage.setItem("4", score);
